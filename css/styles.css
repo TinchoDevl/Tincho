@@ -140,13 +140,18 @@ footer{
 .icons8-logo{
     width: 22px;
 }
-.icons-link{
+.li-icons8{
     position: absolute;
-    font-size: 16px !important;
-    bottom: 4px;
-    left: 1vw;
+    bottom: 5px;
+    left: 0px;
 }
-
+.li-icons8 a img{
+    vertical-align: middle;
+} 
+#icons-link{
+    /* position: absolute; */
+    font-size: 16px;
+}
 /* transiciones: */
 .home:hover, .certification:hover, .youtube-channel:hover{
     transform: scale(1.1);
@@ -199,9 +204,9 @@ footer{
     .icons8-logo{
         width: 16px;
     }
-    .icons-link{
+    #icons-link{
         left: 43vw;
-        font-size: 8px;
+        font-size: 12px;
     }
 
 
@@ -213,11 +218,14 @@ footer{
 }
 
 @media (max-width: 356px){
-    .ul-footer li a img{
+    .email-icon, .youtube-icon{
         vertical-align: middle;
         width: 18px;
     }
-    .ul-footer li a{
+    .ul-footer-a{
         font-size: 13px;
+    }
+    .icons8-logo{
+        width: 14px;
     }
 }
